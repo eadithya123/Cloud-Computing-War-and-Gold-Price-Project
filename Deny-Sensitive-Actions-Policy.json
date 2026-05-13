@@ -1,0 +1,19 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "DenySensitiveActions",
+			"Effect": "Deny",
+			"Action": [
+				"iam:DeleteUser",
+				"iam:DeleteRole",
+				"iam:DeletePolicy",
+				"iam:DetachRolePolicy",
+				"logs:DeleteLogGroup",
+				"logs:DeleteLogStream",
+				"s3:DeleteBucket"
+			],
+			"Resource": "*"
+		}
+	]
+}
