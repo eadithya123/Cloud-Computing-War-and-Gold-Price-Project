@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowTeam1Only",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::Acc_no:user/Team_name"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
