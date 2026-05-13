@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "LambdaReadWriteAccess",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "lambda:UpdateFunctionCode",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:GetFunction",
+                "lambda:ListFunctions",
+                "lambda:InvokeFunction",
+                "lambda:DeleteFunction"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
