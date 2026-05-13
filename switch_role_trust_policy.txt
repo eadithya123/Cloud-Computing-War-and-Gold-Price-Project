@@ -5,7 +5,7 @@
             "Sid": "AllowTeam1Only",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::Acc_no:user/Team_name"
+                "AWS": "arn:aws:iam::Acc_no:user/user_name"
             },
             "Action": "sts:AssumeRole"
         }
